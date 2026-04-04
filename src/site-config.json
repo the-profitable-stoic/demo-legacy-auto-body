@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Legacy Auto Body",
+    "phone": "555-aut-r94",
+    "category": "auto-body",
+    "city": "Milwaukee",
+    "state": "WI"
+  },
+  "design": {
+    "preset": {
+      "id": "auto-body-heritage-craft",
+      "categoryGroup": "auto-body",
+      "name": "Heritage Craft",
+      "recipeFile": "auto-body/heritage-craft.astro",
+      "colors": {
+        "primary": "#4A5A82",
+        "primaryDark": "#2c364e",
+        "primaryLight": "#c0c5d3",
+        "secondary": "#3f4d6f",
+        "accent": "#4A5A82",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#3f4d6f",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "auto-body/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Trusted Auto Body Repair in Milwaukee",
+      "heroSubline": "Legacy Auto Body delivers honest, high-quality repairs for Milwaukee drivers. Serving Wauwatosa and Brookfield with local expertise since 2012.",
+      "aboutTitle": "Built on Integrity",
+      "aboutText": [
+        "Founded in 2012, Legacy Auto Body started as a small shop in Milwaukee's Third Ward. Our founder, a Milwaukee native, saw the need for transparent auto repairs in a city where winter salt and potholes take a toll.",
+        "We approach every repair with the same care we'd give our own vehicles—no upsells, just straightforward assessments and durable fixes built for Wisconsin's climate.",
+        "When we're not in the shop, you'll find our team supporting local car shows at the Milwaukee Art Museum or volunteering at Bay View's community garage."
+      ],
+      "valueProps": [
+        {
+          "title": "Winter-Ready Repairs",
+          "description": "We use corrosion-resistant materials and techniques to combat Milwaukee's salt-heavy winters."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "Our team understands how Milwaukee's lake-effect snow and freeze-thaw cycles impact vehicles."
+        },
+        {
+          "title": "No Hidden Costs",
+          "description": "You'll get a detailed estimate before we touch your car—no surprises when you pick it up."
+        },
+        {
+          "title": "Lifetime Guarantee",
+          "description": "All paintwork comes with a lifetime warranty against peeling or fading."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Free Estimate Today",
+      "ctaSubline": "Call 555-AUT-R94 or stop by our Milwaukee shop for a no-pressure consultation."
+    },
+    "services": [
+      {
+        "slug": "collision-repair",
+        "name": "Collision Repair",
+        "shortDescription": "Restore your vehicle's structure and safety after accidents.",
+        "description": "Milwaukee's mix of urban traffic and winter road conditions leads to more fender benders than most cities. Our collision repairs go beyond cosmetics—we use frame straightening equipment to restore factory specifications, critical for modern safety systems.\n\nWe specialize in repairing salt-induced corrosion around impact points, a common issue in Wauwatosa and Brookfield vehicles. Every repair includes anti-corrosion treatments to prevent future rust, especially important near wheel wells and undercarriages.\n\nFrom Third Ward parallel parking scrapes to highway collisions, we work with all major insurers while keeping your best interests in mind.",
+        "process": [
+          "Step 1: Free damage assessment with digital imaging",
+          "Step 2: Disassembly and hidden damage inspection",
+          "Step 3: Frame correction using computerized measuring",
+          "Step 4: Reassembly with OEM or certified aftermarket parts"
+        ],
+        "benefits": [
+          "Factory-spec alignment for proper safety system function",
+          "Corrosion protection for Wisconsin winters",
+          "Direct insurance billing available",
+          "Loaner vehicles while we work"
+        ],
+        "faq": [
+          {
+            "question": "How long does a typical collision repair take?",
+            "answer": "Most repairs take 3-7 days depending on parts availability. We prioritize getting Milwaukee commuters back on the road quickly without cutting corners."
+          },
+          {
+            "question": "Do you work with my insurance?",
+            "answer": "We're preferred providers for most major insurers in Wisconsin and handle all paperwork. You'll never pay out-of-pocket unless you choose upgrades."
+          }
+        ]
+      },
+      {
+        "slug": "paintless-dent-repair",
+        "name": "Paintless Dent Repair",
+        "shortDescription": "Remove dents without repainting, preserving your factory finish.",
+        "description": "Hailstorms from Lake Michigan and shopping cart dings in Brookfield's parking lots don't have to mean a full repaint. Our technicians use specialized tools to massage dents out from behind, keeping your original paint intact.\n\nThis method works best on recent damage before metal fatigues—especially important for Milwaukee's older vehicles where factory paint matches are hard to replicate. We can typically repair dents up to the size of a baseball without filler or repainting.\n\nFor East Side residents dealing with tight street parking or Wauwatosa drivers facing grocery store dings, PDR saves 50-75% compared to conventional repairs while maintaining your car's value.",
+        "process": [
+          "Step 1: Dent evaluation under specialized lighting",
+          "Step 2: Access panel removal if needed",
+          "Step 3: Precision metal massaging",
+          "Step 4: Final polish to restore gloss"
+        ],
+        "benefits": [
+          "Preserves factory paint warranty",
+          "Same-day service for most repairs",
+          "No color matching required",
+          "Eco-friendly (no paint fumes)"
+        ],
+        "faq": [
+          {
+            "question": "Can you repair door edge dings?",
+            "answer": "Yes—we frequently fix these common Milwaukee parking mishaps. The technique differs from panel dents but often achieves near-perfect results."
+          },
+          {
+            "question": "Does PDR work on aluminum panels?",
+            "answer": "With extra care, yes. Modern F-150s and luxury vehicles require different tools than steel, which our team is certified to handle."
+          }
+        ]
+      },
+      {
+        "slug": "rust-repair",
+        "name": "Rust Repair",
+        "shortDescription": "Stop Wisconsin's salt corrosion before it spreads.",
+        "description": "Milwaukee's heavy winter salting causes rust that starts small but can total a vehicle if untreated. We specialize in cutting out corrosion at its source—not just covering it up—with proper metal replacement and sealing.\n\nCommon problem areas include wheel arches on Wauwatosa's older sedans, truck beds in Brookfield, and undercarriages across the metro area. Our process involves cutting back to clean metal, welding in new sections with corrosion-resistant steel, and applying multiple protective coatings.\n\nFor classic cars stored in Bay View garages or daily drivers facing Wisconsin winters, proper rust repair adds years to your vehicle's life. We'll show you exactly where damage exists and what we can realistically preserve.",
+        "process": [
+          "Step 1: Full rust inspection with borescope",
+          "Step 2: Cutting out affected metal",
+          "Step 3: Welding in replacement panels",
+          "Step 4: Epoxy primer and cavity wax application"
+        ],
+        "benefits": [
+          "Actual metal replacement (not just filler)",
+          "Cavity wax protects inner panels",
+          "Color-matched paint blends",
+          "Prevents structural weakening"
+        ],
+        "faq": [
+          {
+            "question": "How much rust is too much to repair?",
+            "answer": "When structural components like frame rails are compromised, repairs may not be safe. We'll give you an honest assessment—sometimes prevention is better than restoration."
+          },
+          {
+            "question": "Can you prevent future rust?",
+            "answer": "Yes—we apply oil-based cavity wax inside panels and recommend annual undercarriage washes at local Bay View shops to remove salt."
+          }
+        ]
+      },
+      {
+        "slug": "auto-painting",
+        "name": "Auto Painting",
+        "shortDescription": "Factory-quality paint jobs that withstand Wisconsin seasons.",
+        "description": "Milwaukee's extreme temperature swings—from humid summers to subzero winters—demand paintwork that flexes without cracking. Our climate-controlled spray booth and Wisconsin-specific paint formulations prevent the peeling and fading common with cheap repairs.\n\nWe match factory colors using a spectrophotometer, crucial for maintaining resale value on Brookfield's luxury vehicles or restoring classic Third Ward cars. Every job includes proper surface prep, multiple clear coats, and a baked finish for durability.\n\nWhether you need a bumper respray after a Bay View fender bender or a full color change for your weekend cruiser, our lifetime warranty guarantees your paint will look new for years.",
+        "process": [
+          "Step 1: Color matching with OEM formulas",
+          "Step 2: Complete surface sanding and degreasing",
+          "Step 3: Primer, base coat, and clear coat application",
+          "Step 4: 48-hour bake cycle for maximum hardness"
+        ],
+        "benefits": [
+          "Lifetime warranty against peeling",
+          "Exact factory color matches",
+          "Resistant to road salt and UV",
+          "Enhanced resale value"
+        ],
+        "faq": [
+          {
+            "question": "How long does paint need to cure?",
+            "answer": "While dry to touch in hours, full hardening takes 30 days. We recommend avoiding automatic car washes in Wauwatosa during this period."
+          },
+          {
+            "question": "Can you match metallic flake paints?",
+            "answer": "Yes—our Milwaukee shop has specialized mixing equipment to replicate complex factory finishes like Mazda's Soul Red Crystal."
+          }
+        ]
+      },
+      {
+        "slug": "frame-straightening",
+        "name": "Frame Straightening",
+        "shortDescription": "Precision correction for your vehicle's foundation.",
+        "description": "After hitting one of Milwaukee's notorious potholes or winter slide-offs, your car's frame might be bent without visible damage. Our computerized measuring system detects misalignments as small as 3mm—critical for proper wheel alignment and safety system function.\n\nWe use hydraulic pulling equipment to slowly restore factory specifications, paying special attention to unibody vehicles common in Wauwatosa's commuter traffic. Post-repair, we verify all crash sensors and driver assists work correctly.\n\nUnlike shops that just 'pull until it looks straight,' our Milwaukee-based technicians follow manufacturer repair procedures exactly. This prevents future tire wear issues on Brookfield's winding roads and ensures airbags deploy properly if needed.",
+        "process": [
+          "Step 1: Laser measurement of 32 reference points",
+          "Step 2: Hydraulic pulling with constant monitoring",
+          "Step 3: Stress relief heat treatment",
+          "Step 4: Post-repair alignment check"
+        ],
+        "benefits": [
+          "Restores factory crash safety",
+          "Prevents uneven tire wear",
+          "Certified unibody repair techniques",
+          "Includes alignment verification"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my frame is bent?",
+            "answer": "Signs include the car pulling to one side, unusual tire wear, or doors that don't close properly—common after Milwaukee curb impacts."
+          },
+          {
+            "question": "Is frame damage always repairable?",
+            "answer": "Severe crumple zone damage may require replacement. We'll provide a clear assessment before starting work."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mitch R.",
+        "rating": 5,
+        "service": "Rust Repair",
+        "text": "Legacy cut out all the rot in my '08 Silverado's wheel wells and used corrosion-resistant panels. Two winters later with regular undercarriage washes at their recommended Bay View spot, zero rust has returned. Worth every penny.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Janine K.",
+        "rating": 5,
+        "service": "Paintless Dent Repair",
+        "text": "After a hailstorm dented my Prius' hood last spring, Legacy had it looking new in 3 hours without any paintwork. You can't even tell which panel they worked on—and I've checked under every angle of light in my Wauwatosa garage.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Darnell W.",
+        "rating": 5,
+        "service": "Collision Repair",
+        "text": "When a plow clipped my parked Civic in Walker's Point, Legacy handled everything with my insurance. They found hidden frame damage others would've missed and gave me a loaner for the week. Car drives straighter than before the accident.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Sophia L.",
+        "rating": 5,
+        "service": "Auto Painting",
+        "text": "My vintage Mustang's respray looks better than the factory paint. They matched the original Wimbledon White perfectly and explained how their extra clear coats would handle Milwaukee's freeze-thaw cycles. Five stars.",
+        "date": "2024-10-17"
+      },
+      {
+        "name": "Carlos T.",
+        "rating": 5,
+        "service": "Frame Straightening",
+        "text": "Hit a monster pothole on Bluemound Road that knocked my alignment out. Legacy's frame measurement showed a slight bend I wouldn't have noticed until my tires wore unevenly. Their repair fixed the pull and saved me future headaches.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Elena M.",
+        "rating": 5,
+        "service": "Rust Repair",
+        "text": "Brookfield car washes don't remove all the winter salt, and my Subaru's quarter panels were bubbling. Legacy replaced the metal properly instead of using filler like another shop suggested. Two years later, still solid.",
+        "date": "2024-08-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Milwaukee Auto Body Repair | Legacy Auto Body",
+        "description": "Honest collision and rust repair serving Milwaukee, Wauwatosa & Brookfield. Winter-ready fixes with lifetime paint warranty. Free estimates: 555-AUT-R94."
+      },
+      "about": {
+        "title": "About Legacy Auto Body | Milwaukee Repair Experts",
+        "description": "Milwaukee-owned auto body shop specializing in salt damage repair and collision work since 2012. Meet our team and learn our Wisconsin-tested approach."
+      },
+      "services": {
+        "title": "Auto Body Services in Milwaukee | Legacy Auto Body",
+        "description": "Complete collision repair, rust treatment, and paint services built for Wisconsin winters. Serving Wauwatosa and Brookfield with honest assessments."
+      },
+      "contact": {
+        "title": "Contact Legacy Auto Body | Milwaukee Repair Shop",
+        "description": "Schedule your free estimate at our Milwaukee auto body shop. Conveniently located for Wauwatosa and Brookfield residents. Call 555-AUT-R94."
+      },
+      "reviews": {
+        "title": "Legacy Auto Body Reviews | Milwaukee, WI",
+        "description": "See what Milwaukee drivers say about our collision repair and rust treatment services. Real customer experiences from Wauwatosa to Bay View."
+      },
+      "service-areas": {
+        "title": "Auto Body Service Areas | Milwaukee & Suburbs",
+        "description": "Legacy Auto Body provides expert collision and rust repair throughout Milwaukee County, including Wauwatosa and Brookfield neighborhoods."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Wauwatosa",
+        "slug": "wauwatosa-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body proudly serves the residents of Wauwatosa, WI, providing top-quality auto-body repairs and collision services tailored to the unique needs of this historic community. With its charming 1920s-40s Tudor and Colonial homes, Wauwatosa’s residents deserve reliable auto care that matches their attention to detail. Our team understands the challenges posed by the harsh cold winters and heavy lake-effect snow, ensuring your vehicle stays safe and road-ready year-round. Whether it’s minor dents or major collision repairs, we’re here to restore your car to its original condition.",
+        "localContext": "Wauwatosa is known for its historic architecture and vibrant community, with a mix of residential charm and urban convenience.",
+        "nearbyAreas": [
+          "Milwaukee",
+          "West Allis",
+          "Brookfield"
+        ]
+      },
+      {
+        "city": "Brookfield",
+        "slug": "brookfield-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body is your trusted auto-body repair shop in Brookfield, WI, catering to the upscale suburban homes and discerning drivers of this thriving community. Brookfield’s 1970s-80s neighborhoods demand precision and excellence, which is exactly what we deliver with our collision repair and paint services. The harsh winters and heavy lake-effect snow can take a toll on your vehicle, but our expert technicians are equipped to handle everything from bumper damage to full-body restorations. Trust Legacy Auto Body to keep your car looking and performing its best.",
+        "localContext": "Brookfield is a well-established suburb with a strong emphasis on quality living, shopping, and dining.",
+        "nearbyAreas": [
+          "Wauwatosa",
+          "New Berlin",
+          "Elm Grove"
+        ]
+      },
+      {
+        "city": "Milwaukee",
+        "slug": "milwaukee-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body is proud to serve Milwaukee, WI, offering expert auto-body and collision repair services to keep the city’s diverse fleet of vehicles in top shape. From downtown commuters to lakefront residents, Milwaukee’s drivers face unique challenges, including harsh winters and urban driving hazards. Our team specializes in everything from scratch removal to frame straightening, ensuring your car looks and drives like new. With a commitment to quality and customer satisfaction, we’re Milwaukee’s go-to auto-body shop.",
+        "localContext": "Milwaukee is Wisconsin’s largest city, known for its rich brewing history, vibrant arts scene, and lakefront attractions.",
+        "nearbyAreas": [
+          "Wauwatosa",
+          "West Allis",
+          "Shorewood"
+        ]
+      },
+      {
+        "city": "West Allis",
+        "slug": "west-allis-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body provides exceptional auto-body repair services to West Allis, WI, a community with a strong blue-collar heritage and a love for well-maintained vehicles. Whether you’re dealing with winter road damage or an unexpected collision, our skilled technicians are here to restore your car to its pre-accident condition. West Allis’s harsh winters demand durable repairs, and our high-quality materials and techniques ensure long-lasting results. Count on us for honest, reliable service that keeps you moving.",
+        "localContext": "West Allis is a working-class city with a proud industrial history and a tight-knit community feel.",
+        "nearbyAreas": [
+          "Milwaukee",
+          "Greenfield",
+          "New Berlin"
+        ]
+      },
+      {
+        "city": "Shorewood",
+        "slug": "shorewood-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body is honored to serve Shorewood, WI, a picturesque village with tree-lined streets and a strong sense of community. Shorewood’s residents take pride in their homes and vehicles, and we match that pride with our meticulous auto-body repair services. The lake-effect snow and icy winters can cause damage to your car, but our team is experienced in handling everything from minor dings to major collision repairs. Trust Legacy Auto Body to provide the care and attention your vehicle deserves.",
+        "localContext": "Shorewood is a charming lakeside village known for its excellent schools and historic homes.",
+        "nearbyAreas": [
+          "Milwaukee",
+          "Whitefish Bay",
+          "Glendale"
+        ]
+      },
+      {
+        "city": "Whitefish Bay",
+        "slug": "whitefish-bay-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body is proud to serve Whitefish Bay, WI, offering premium auto-body repair services to this affluent lakeside community. Whitefish Bay’s residents expect nothing but the best, and our collision repair and paint services meet those high standards. The harsh winters and lake-effect snow can wreak havoc on your vehicle, but our expert technicians are equipped to handle all types of damage. From luxury cars to family SUVs, we treat every vehicle with the utmost care and precision.",
+        "localContext": "Whitefish Bay is an upscale suburb known for its beautiful homes, top-rated schools, and proximity to Lake Michigan.",
+        "nearbyAreas": [
+          "Shorewood",
+          "Glendale",
+          "Fox Point"
+        ]
+      },
+      {
+        "city": "Greenfield",
+        "slug": "greenfield-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body is your trusted auto-body repair shop in Greenfield, WI, providing reliable services to this family-friendly suburb. Greenfield’s mix of residential and commercial areas means vehicles are constantly on the move, facing wear and tear from daily use and harsh winters. Our team specializes in collision repair, paint matching, and dent removal, ensuring your car looks as good as new. We’re committed to delivering fast, affordable, and high-quality repairs to keep Greenfield’s drivers safe.",
+        "localContext": "Greenfield is a suburban community with a strong focus on family life, parks, and local businesses.",
+        "nearbyAreas": [
+          "West Allis",
+          "Hales Corners",
+          "New Berlin"
+        ]
+      },
+      {
+        "city": "New Berlin",
+        "slug": "new-berlin-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body proudly serves New Berlin, WI, offering expert auto-body repair services to this growing suburban city. New Berlin’s mix of residential neighborhoods and business parks means vehicles are essential for daily life. Our team understands the challenges posed by Wisconsin’s harsh winters and is skilled in repairing snow and ice-related damage. Whether you need a quick fix or a major restoration, Legacy Auto Body provides dependable service with a personal touch.",
+        "localContext": "New Berlin is a thriving suburb with a balance of residential comfort and commercial growth.",
+        "nearbyAreas": [
+          "Brookfield",
+          "Waukesha",
+          "Greenfield"
+        ]
+      },
+      {
+        "city": "Glendale",
+        "slug": "glendale-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body is honored to serve Glendale, WI, providing top-tier auto-body repair services to this well-established community. Glendale’s residents value quality and reliability, and our collision repair services reflect those values. The lake-effect snow and icy roads can lead to fender benders and paint damage, but our skilled technicians are here to restore your vehicle to its original condition. Trust Legacy Auto Body for professional, hassle-free repairs that stand the test of time.",
+        "localContext": "Glendale is a residential city with easy access to Milwaukee’s amenities and a strong community spirit.",
+        "nearbyAreas": [
+          "Whitefish Bay",
+          "Shorewood",
+          "Fox Point"
+        ]
+      },
+      {
+        "city": "Fox Point",
+        "slug": "fox-point-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body is proud to serve Fox Point, WI, offering premium auto-body repair services to this affluent North Shore community. Fox Point’s residents demand excellence, and our collision repair and paint services deliver just that. The harsh winters and lake-effect snow can cause significant damage to your vehicle, but our expert team is equipped to handle all repairs with precision. From luxury sedans to SUVs, we treat every car with the care it deserves.",
+        "localContext": "Fox Point is known for its elegant homes, top-notch schools, and proximity to Lake Michigan.",
+        "nearbyAreas": [
+          "Whitefish Bay",
+          "Glendale",
+          "Bayside"
+        ]
+      },
+      {
+        "city": "Hales Corners",
+        "slug": "hales-corners-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body is your trusted auto-body repair shop in Hales Corners, WI, providing reliable services to this tight-knit community. Hales Corners’ rural charm and suburban convenience make it a unique place to live and drive. Our team specializes in repairing winter-related damage, from salt corrosion to collision repairs caused by icy roads. Whether you’re dealing with a minor scratch or major damage, Legacy Auto Body is here to restore your vehicle with honesty and expertise.",
+        "localContext": "Hales Corners is a small village with a mix of rural and suburban character, known for its friendly atmosphere.",
+        "nearbyAreas": [
+          "Greenfield",
+          "Franklin",
+          "New Berlin"
+        ]
+      },
+      {
+        "city": "Franklin",
+        "slug": "franklin-wi",
+        "state": "WI",
+        "content": "Legacy Auto Body proudly serves Franklin, WI, offering expert auto-body repair services to this growing suburban city. Franklin’s mix of residential neighborhoods and commercial areas means vehicles are essential for daily life. Our team understands the challenges posed by Wisconsin’s harsh winters and is skilled in repairing snow and ice-related damage. Whether you need a quick fix or a major restoration, Legacy Auto Body provides dependable service with a personal touch.",
+        "localContext": "Franklin is a rapidly developing suburb with a focus on family-friendly living and outdoor recreation.",
+        "nearbyAreas": [
+          "Hales Corners",
+          "Oak Creek",
+          "Greendale"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "collision-repair": "/images/service-collision-repair.webp",
+      "paintless-dent-repair": "/images/service-paintless-dent-repair.webp",
+      "rust-repair": "/images/service-rust-repair.webp",
+      "auto-painting": "/images/service-auto-painting.webp",
+      "frame-straightening": "/images/service-frame-straightening.webp"
+    },
+    "servicesResponsive": {
+      "collision-repair": {
+        "src": "/images/service-collision-repair.webp",
+        "srcset": "/images/service-collision-repair-400w.webp 400w, /images/service-collision-repair-800w.webp 800w, /images/service-collision-repair-1200w.webp 1200w, /images/service-collision-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "paintless-dent-repair": {
+        "src": "/images/service-paintless-dent-repair.webp",
+        "srcset": "/images/service-paintless-dent-repair-400w.webp 400w, /images/service-paintless-dent-repair-800w.webp 800w, /images/service-paintless-dent-repair-1200w.webp 1200w, /images/service-paintless-dent-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "rust-repair": {
+        "src": "/images/service-rust-repair.webp",
+        "srcset": "/images/service-rust-repair-400w.webp 400w, /images/service-rust-repair-800w.webp 800w, /images/service-rust-repair-1200w.webp 1200w, /images/service-rust-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "auto-painting": {
+        "src": "/images/service-auto-painting.webp",
+        "srcset": "/images/service-auto-painting-400w.webp 400w, /images/service-auto-painting-800w.webp 800w, /images/service-auto-painting-1200w.webp 1200w, /images/service-auto-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "frame-straightening": {
+        "src": "/images/service-frame-straightening.webp",
+        "srcset": "/images/service-frame-straightening-400w.webp 400w, /images/service-frame-straightening-800w.webp 800w, /images/service-frame-straightening-1200w.webp 1200w, /images/service-frame-straightening.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
